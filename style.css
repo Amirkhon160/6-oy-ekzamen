@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffce5b;
+    margin: 0;
+    padding: 20px;
+}
+
+#filterInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #9ad8ff;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card p {
+    margin: 5px 0;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#filterInput{
+    margin-left: 360px;
+    width: 700px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+
+
